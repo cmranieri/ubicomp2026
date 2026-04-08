@@ -101,7 +101,6 @@ Será necessário usar o pacote ```mpremote``` para instalar pacotes Python no E
 
 ```bash
 pip install mpremote
-mpremote connect auto repl
 mpremote mip install umqtt.simple
 ```
 
