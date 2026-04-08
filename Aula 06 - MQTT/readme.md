@@ -46,7 +46,7 @@ password_file <caminho_para_arquivo_de_senha>
 O arquivo com senha deve ser gerado com uso do programa ```mqtt_passwd```, incluído na instalação do Mosquitto.
 
 ```
-mosquitto_passwd -c <nome_do_arquivo>
+mosquitto_passwd -c <nome_do_arquivo> <nome_do_usuario>
 ```
 
 O comando acima permitirá criar um usuário com senha, e deve ser o arquivo especificado como ```password_file``` no arquivo de configuração do broker.
